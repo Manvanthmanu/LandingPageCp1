@@ -1,95 +1,208 @@
-@media only screen and (min-width:570px){
-    *{
-        /* background-color: black; */
+@media only screen and (min-width:380px) {
+    * {
+        margin: 0;
+        padding: 0;
     }
 
+    .headsection button {
+        margin-left: -8px;
+    }
+}
+
+
+@media only screen and (min-width:700px) {
+
     /* nav section  */
-    nav{
+    nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding:30px 40px;
+        padding: 30px 40px;
     }
-    .logo{
+
+    .logo {
         justify-content: left;
         margin: -100px;
     }
-    .logo img{
+
+    .logo img {
         height: 350px;
     }
-    .navigations ul li{
+
+    .navigations ul li {
         padding: 0px 15px;
     }
-    .navigations ul li a{
-        font-size:  21px; 
+
+    .navigations ul li a {
+        font-size: 21px;
     }
 
     /* head sec */
-    #home{
+    #home {
         display: flex;
         flex-direction: row-reverse;
         padding: 10px 40px;
         align-items: center;
     }
-    #home .divisionright{
+
+    #home .divisionright {
         width: 40vw;
     }
-    #home .textcontent{
+
+    #home .textcontent {
         width: 400px;
         padding: 10px;
     }
-    .divisionleft{
+
+    .divisionleft {
         width: auto;
     }
-    .divisionleft h1{
+
+    .divisionleft h1 {
         text-wrap: wrap;
         width: 300px;
     }
-    .divisionleft p{
+
+    .divisionleft p {
         width: 300px;
     }
-    .headsection{
+
+    .headsection {
         width: auto;
     }
-    .headsection>button{
+
+    .headsection>button {
         margin-left: 20px;
     }
 
     /* section 1 */
-    .section1 img:nth-child(1), .section1 img:nth-child(5){
+    .section1 img:nth-child(1),
+    .section1 img:nth-child(5) {
         display: block;
         height: 200px;
         align-self: center;
     }
-    .section1 img:nth-child(1){
+
+    .section1 img:nth-child(1) {
         margin-top: 10px;
         margin-right: -30px;
     }
-    .section1 img:nth-child(3){
+
+    .section1 img:nth-child(3) {
         z-index: 10;
     }
-    
-    .section1{
+
+    .section1 {
         height: 80px;
         padding: 10px;
     }
-    .section1 img{
+
+    .section1 img {
         height: 150px;
         margin: -20px;
     }
-    .section1 img:nth-child(5){
+
+    .section1 img:nth-child(5) {
         filter: invert(2);
         background-color: transparent;
         height: 160px;
     }
-    .section1 img:nth-child(4){
+
+    .section1 img:nth-child(4) {
         height: 230px;
         margin: -40px;
         filter: contrast(2);
     }
-    .section1 img:nth-child(2){
+
+    .section1 img:nth-child(2) {
         height: 180px;
         margin: -40px;
     }
-}   
+}
+
+@media only screen and (min-width:820px) {
+    .section2 {
+        width: fit-content;
+        margin-top: 50px;
+    }
+    .section2 h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .section2>p {
+        width: fit-content;
+        padding: 0 130px;
+    }
+
+    .boxes {
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .boxes>.box {
+        box-sizing: border-box;
+        width: 198px;
+        height: 240px;
+        padding: 18px;
+        border: 1.5px solid black;
+        border-radius: 9px;
+        margin: 6px 6px;
+        justify-content: start;
+        overflow: hidden;
+        box-shadow: none;
+    }
+    .box span{
+        padding: 7px;
+        width: 45px;
+        height: 45px;
+    }
+    .box i{
+        font-size: 25px;
+    }
+    .box h2{
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .box p{
+        color: rgba(0, 0, 0, 0.804);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    .section3{
+        margin-top: 10px;
+        flex-direction: row;
+        position:relative;
+        padding:10px 30px;
+        overflow: hidden;
+        height: 400px;
+    }
+
+    .section3 .division1{
+        align-items: center;
+    }
+    .section3 h3{
+        position:absolute;
+        top: 25px;
+        left: 520px;
+    }
+
+    .division1 img{
+        width: 570px;
+        margin-top: -68px;
+    }
+
+    .section4-head>h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .section4-head>p{
+        padding: 0 130px;
+    }
+}
