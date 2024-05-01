@@ -49,6 +49,10 @@ body{
     color: black;
   
 }
+.navigations ul li a:hover{
+    outline: 2px;
+    color: var(--primaryColor);
+}
 .navigations ul li:nth-child(1){
     border: 2px solid black;
     border-radius: 9px ;

@@ -122,6 +122,13 @@
 }
 
 @media only screen and (min-width:820px) {
+
+    .headsection>button {
+        width: 120px;
+        height: 35px;
+        font-size: 15px;
+        padding: 6px 6px;
+    }
     .section2 {
         width: fit-content;
         margin-top: 50px;
@@ -179,7 +186,8 @@
         position:relative;
         padding:10px 30px;
         overflow: hidden;
-        height: 400px;
+        height: 360px;
+        justify-content: center;
     }
 
     .section3 .division1{
@@ -192,8 +200,12 @@
     }
 
     .division1 img{
-        width: 570px;
-        margin-top: -68px;
+        width: 400px;
+        margin-top: -197px;
+    }
+    .section3>.division2{
+        flex-direction: column;
+        margin-top: 70px;
     }
 
     .section4-head>h4{
@@ -204,5 +216,100 @@
 
     .section4-head>p{
         padding: 0 130px;
+    }
+
+
+    /* section 4 */
+    .section4{
+        margin-top: 40px;
+    }
+    .section4-head>img{
+        position: absolute;
+        right: 30px;
+        background-color: transparent;
+        width: 140px;
+    }
+    .section4-head p {
+        font-size: 17px;
+    }
+    .projectCard>.sep1>p{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .projectCard{
+        border: none;
+        background-color: transparent;
+        box-shadow: none;
+        width: 80vw;
+        justify-content: space-between;
+        flex-direction: row;
+        /* min-width: none; */
+        padding:0 30px;
+        max-width: none;
+        margin: 40px 0;
+    }
+    .projectCard.webdev .sep2 img{
+        float: left;
+    }
+    .projectCard .sep1{
+        margin-top: 30px;
+    }
+    .projectCard>.sep1 p:nth-child(3){
+        display: block;
+    }
+
+    .webdev{
+        flex-direction: row-reverse;
+    }
+    .ecommerce{
+        flex-direction: row-reverse;
+        margin-bottom: 30px;
+    }
+    .last{
+        margin-bottom: 30px;
+    }
+    .last button{
+        width: 149px;
+        height: 45px;
+        font-size: 16px;
+        padding: 12px 8px;
+    }
+
+    /* section 5 */
+    .section5{
+        padding:40px 150px ;
+    }
+
+    .section6{
+        padding:40px 150px ;
+    }
+
+    /* footer */
+
+    footer{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-image{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        justify-content: space-around;
+    }
+    .footer-image .footer-logo img{
+        margin-left: -50px;
+        margin-top: -10px;
+    }
+    .footer-image .footer-text p{
+        margin-right: 20px;
+    }
+    .footercontainer{
+        padding:0px 78px ;
+        margin: 0 100px;
+    }
+    .footer-Newsletter span{ 
+       display: block;
     }
 }
