@@ -1,3 +1,7 @@
+:root{
+    --primaryColor:rgba(252, 203, 96, 0.918);
+}
+
 @media only screen and (min-width:380px) {
     * {
         margin: 0;
@@ -311,5 +315,50 @@
     }
     .footer-Newsletter span{ 
        display: block;
+    }
+}
+
+@media only screen and (min-width:950px){
+    .contactus{
+        display: block;
+    }
+    .contactus button{
+        background-color: black;
+        color: white;
+        border-radius: 11px;
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    .contactus button:hover{
+        background-color: var(--primaryColor);
+        color:black;
+    }
+    #home{
+        padding: 10px 96px;
+    }
+    .divisionleft h1 {
+        font-size: 28px;
+    }
+    .divisionleft p {
+        font-size: 19px;
+    }
+
+    .divisionright img {
+        width: 510px;
+    }
+    .headsection>button {
+        width: 130px;
+        height: 39px;
+        font-size: 16px;
+        padding: 10px 12px;
+    }
+
+
+    /* section 1 */
+    .section1 {
+        height: 91px;
+    }
+    .section1 img:nth-child(1){
+        height: 220px;
     }
 }
