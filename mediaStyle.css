@@ -361,6 +361,92 @@
     .section1 img:nth-child(1){
         height: 220px;
     }
+
+    /* section 2 */
+    .section2 h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+    }
+    .section2>p {
+        font-size: 17px;
+    }
+
+    /* section 3 */
+    .boxes>.box {
+        width: 241px;
+        height: 272px;
+    }
+    .box span {
+        padding: 12px;
+        width: 63px;
+        height: 63px;
+    }
+    .box i {
+        font-size: 32px;
+    }
+    .box h2 {
+        font-size: 26px;
+    }
+    .box p {
+        font-size: 16px;
+    }
+
+    /* division 4 */
+
+    .division1 img {
+        margin-left: 29px;
+        width: 493px;
+    }
+    .section3>.division2 {
+        margin-left: -120px;
+    }
+
+    .section3 h3 {
+        left: 570px;
+    }
+    .division2>.contain {
+        width: 227px;
+    }
+
+    /* section 4 */
+    .section4-head p {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .projectCard>.sep2 img {
+        width: 266px;
+    }
+    .projectCard>.sep1 span {
+        padding: 8px 14px;
+        margin-bottom: 20px;
+    }
+    .projectCard>.sep1 h5 {
+        margin: 18px 0px;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .projectCard>.sep1 p:nth-child(3) {
+        font-size: 17px;
+    }
+
+    .projectCard>.sep1>p {
+        font-size: 17px;
+    }
+
+    .Development .sep2 img{
+        margin-right: 40px;
+    }
+
+    .projectCard>.sep1 button {
+        padding: 8px 22px;
+        font-size: medium;
+    }
+
+    .last button {
+        margin-top: 40px;
+    }
 }
 
 /*  no idea simple
