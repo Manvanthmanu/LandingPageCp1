@@ -49,6 +49,10 @@ body{
     color: black;
   
 }
+.navigations ul li a:hover{
+    outline: 2px;
+    color: var(--primaryColor);
+}
 .navigations ul li:nth-child(1){
     border: 2px solid black;
     border-radius: 9px ;
@@ -258,7 +262,7 @@ body{
     margin-top: 240px;
     background-color: transparent;
     margin-bottom: 20px;
-    width: 70vw;
+    /* width: 70vw; */
 }
 
 .division2 .contain {
@@ -701,6 +705,10 @@ footer{
     }
     .headsection{
         width: 70vmin;
+        padding-left: 15px;
+    }
+    .headsection button{
+        margin-left: 18px;
     }
 
     /* section1 */
