@@ -447,8 +447,78 @@
     .last button {
         margin-top: 40px;
     }
+
+    /*  SECTION 5 */
+    .section5 .right p {
+        font-size: 17px;
+    }
+    .review>div span:first-child {
+        FONT-SIZE: medium;
+    }
+    .review>div span:nth-child(2) {
+        FONT-SIZE: medium;
+        color: rgb(255, 255, 255);
+    }
+
+    .movers i {
+        font-size: x-large;
+    }
+    .section6 .right p {
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .section6 .right button {
+        width: 124px;
+        padding: 14px 11px;
+        font-size: 18px;
+        margin-top: 33px;
+    }
+
+    /* footer */
+
+    .footer-text p {
+        font-size: 17px;
+    }
+
+    .footer-product ul li:first-child, .footer-Resources ul li:first-child {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footer-product ul li, .footer-Resources ul li {
+        padding: 10px;
+    }
+    .footer-Newsletter span {
+        font-size: 17px;
+        font-family: sans-serif;
+        margin-top: 10px;
+    }
+
+    .footer-product, .footer-product ul, .footer-Resources, .footer-Resources ul {
+        padding: 10px;
+    }
+    .footer-Newsletter {
+        padding: 40px 5px;
+    }
+    .footer-product ul li, .footer-Resources ul li {
+        font-size: 15px;
+    }
+.input-button button {
+    width: 50%;
+}
+.input-button{
+    margin-top: 25px;
+
+}
+footer>span {
+    font-size: 17px;
+    font-family: sans-serif;
+}
 }
 
-/*  no idea simple
- */ 
- /* another check */
+
+@media only screen and (min-width:1180px){
+    
+}
