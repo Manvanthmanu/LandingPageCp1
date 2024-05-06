@@ -626,4 +626,148 @@ footer>span {
         overflow: hidden;
     }
 
+    /*  section 3 */
+    .contain p:nth-child(3) {
+        display: block;
+    }
+    .section3{
+        height: fit-content;
+    }
+
+    .division1 img {
+        margin-left: -40px;
+        width: 616px;
+    }
+    .division2>.contain {
+        width: fit-content;
+        box-shadow: none;
+    }
+
+
+    .section3 .division2 {
+        width: 90vw;
+        text-align: left;
+    }
+
+    .division2>.contain{
+        display: block;
+        background-color: transparent;
+        padding: 20px 50px;
+    }
+
+    .division2 .contain p:nth-child(2) {
+        font-size: 19px;
+    }
+    .division2 .contain span {
+        font-size: 49px;
+        margin-right: 20px;
+    }
+    .division2 .contain p:nth-child(3) {
+        font-size: 17px;
+        margin-top: 2px;
+    }
+/* section 4 */
+.projectCard>.sep2 img {
+    width: 335px;
+}
+
+/* section 5 */
+.section5 h3 {
+    color: rgb(63, 0, 72);
+    font-size: 39px;
+    padding: 20px 0px;
+}
+
+.section5>.left img{
+    width: 358px;
+}
+.section5 .right p {
+    font-size: 21px;
+}
+.review>div span:first-child {
+    FONT-SIZE: 25px;
+    margin-top: 20px;
+}
+.review>div span:nth-child(2) {
+    FONT-SIZE: 25px;
+    color: rgb(0 118 135);
+}
+.review {
+    align-items: center;
+}
+.movers i {
+    font-size: 34px;
+    margin-top: 20px;
+}
+
+/* section 6 */
+#contact{
+    height: 654px;
+}
+.section6 input {
+    margin: 26px 0px;
+    font-size: 25px;
+    padding: 4px 16px;
+}
+.section6 .left h4 {
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    margin-bottom: 55px;
+}
+
+.section6 .right p {
+    font-size: 27px;
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+/* footer  */
+footer {
+    padding-top: 70px;
+}
+.footer-text p {
+    font-size: 21px;
+}
+.footer-logo img{
+    margin-bottom: -16px;
+    height: 402px;
+}
+
+.footer-product ul li:first-child, .footer-Resources ul li:first-child {
+    font-size: 22px;
+}
+.footer-Newsletter span {
+    font-size: 22px;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: center;
+}
+.input-button>input {
+    border: none;
+    flex-grow: 1;
+    border-radius: 10px;
+    outline: none;
+    padding: 6px;
+}
+
+.footer-product ul li, .footer-Resources ul li {
+    font-size: 18px;
+}
+.input-button {
+    padding: 12px;
+    margin-top: 20px;
+    width: 95%;
+    float: none;
+    margin-right: -8px;
+    margin-left: 6px;
+}
+.input-button button {
+    width: 45%;
+    height: 35px;
+}
 }
