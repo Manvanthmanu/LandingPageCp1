@@ -771,3 +771,33 @@ footer {
     height: 35px;
 }
 }
+
+
+@media only screen and (min-width:1350px){
+    #home {
+        padding: 40px 144px;
+        padding-bottom: 0px;
+    }
+    .divisionright {
+        height: 359px;
+    }
+    .divisionright img {
+        width: 704px;
+    }
+    .divisionleft h1 {
+        margin-bottom: 39px;
+    }
+    .section4-head>h4 {
+        font-size: 42px;
+    }
+    .section4-head p {
+        font-size: 21px;
+    }
+    .section4-head {
+        padding: 64px;
+    }
+    .projectCard>.sep1>p {
+        font-size: 21px;
+    }
+
+}
