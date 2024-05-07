@@ -6,7 +6,7 @@ it covers all basic topics of html and css including flexbox
 
 Also have used media Queries for all screen displays . ## its Responsive .
 
-Website link .. [webpage](https://manvanthmanu.github.io/LandingPageCp1/)
+Website link .. [landingpage1](https://manvanthmanu.github.io/LandingPageCp1/)
 
 
 privew image 
