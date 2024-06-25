@@ -775,17 +775,35 @@ footer {
 
 @media only screen and (min-width:1350px){
     #home {
-        padding: 40px 144px;
+        padding: 40px 200px;
         padding-bottom: 0px;
+    }
+    .navigations ul li{
+        margin: 0px 15px;
     }
     .divisionright {
         height: 359px;
     }
     .divisionright img {
         width: 704px;
+        margin-left: 40px;
     }
+    .section1{
+        justify-content: space-evenly;
+        padding: 0px 210px;
+    }
+    .section1 img:nth-child(1) {
+        margin-top: 25px;
+        height: 347px;
+        margin-left: -85px;
+    }
+
     .divisionleft h1 {
         margin-bottom: 39px;
+    }
+    .section2 {
+        padding: 30px 14px;
+        margin-top: 45px;
     }
     .section4-head>h4 {
         font-size: 42px;
@@ -798,6 +816,25 @@ footer {
     }
     .projectCard>.sep1>p {
         font-size: 21px;
+    }
+    .section3 h3 {
+        left: 650px;
+    }
+    .section3 {
+        padding: 10px 248px;
+    }
+    .section4-head>h4 {
+        font-size: 37px;
+    }
+
+    .projectCard {
+        width: 68vw;
+    }
+    .section5 {
+        padding: 45px 229px;
+    }
+    .section6 {
+        padding: 40px 222px;
     }
 
 }
